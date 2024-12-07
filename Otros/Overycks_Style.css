@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+#fondo-principal 
+{    
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Recursos/Fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*BARRA DE NAVEGACION*/
+nav img
+{
+    width: 25px;
+    height: 25px;
+}
+nav
+{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+}
+.divNav
+{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.divNav a
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.divNav > *
+{
+    padding: 10px;
+}
+
+nav span
+{
+    padding-left: 5px;
+}
+
+#logo,
+#logo a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+/*Elementos del Header*/
+#overycks 
+{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    padding-right: 21px;
+
+}
+#SP
+{
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+}
+.Flechitas
+{
+    width: 25px;
+    height: 20px;
+}
+#down
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 290px;
+}
+
+
+/*
+#Seccion-indument
+{
+    text-align: center;
+}
+
+#Primer-articulo
+{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#Primer-articulo div
+{
+    position: relative;
+    text-align: center;
+}
+
+#Segundo-articulo
+{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#Segundo-articulo div
+{
+    position: relative;
+    text-align: center;
+}
+
+#Tercer-articulo
+{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#Tercer-articulo div
+{
+    position: relative;
+    text-align: center;
+}
+
+#Cuarto-articulo
+{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#Cuarto-articulo div
+{
+    position: relative;
+    text-align: center;
+}
+*/
+
+#Icono-ordenar
+{
+    vertical-align: middle;
+    width: 13px; 
+    height: 13px;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+/*Footer*/
+footer
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#logoFooter
+{
+    font-size: 50px;
+}
+#linea
+{
+    width: 3px;
+    height: 60%;
+    background-color: black;
+    margin-left: 25px;
+}
+#nuestrasRedes
+{
+    text-align: center;
+    padding: 20px;
+}
+#redesIconos img,
+#redesIconos a
+{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+#Copyright 
+{
+    position: absolute;
+    align-self: flex-end;
+}
+
+/*Sobre Nosotros*/
+.otrosHTMLBackground
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Recursos/Fondo2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.texto  
+{
+    width: 400px;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+/*Reescalado*/
+#atlas img
+{
+    width: 120px;
+    height: 120px;
+    filter: invert(100%);
+}
+#casco img 
+{
+    width: 120px;
+    height: 120px;
+    filter: invert(100%);
+}
+#columna img
+{
+    width: 120px;
+    height: 120px;
+    filter: invert(100%);
+}
+
+.leyendas
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    padding-right: 95px;
+}
+#quienesSomos 
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#quienesSomos h1
+{
+    font-size: 60px;
+    color: white;
+}
+#synonymaLeyendas
+{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.textoLeft  
+{
+    width: 500px;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+#lineaQS
+{
+    width: 3px;
+    height: 50%;
+    background-color: white;
+    margin-left: 35px;
+}
+
+
+#product-section{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#seccion-articulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.articulo{
+    justify-content: center;
+    text-align: center;
+    margin: 25px 10px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.articulo:hover{
+    background-color: rgb(242, 241, 241);
+    padding: 0;
+}
+.articulo img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.articulo h3{
+    margin: 0;
+}
+
+
+
+#div-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login{
+    width: 300px;
+    /* height: 350px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 0;
+}
+.login > *{
+    margin: 20px;
+}
+.login > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login > div > input{
+    width: 250px;
+    margin: 10px 0;
+}
+
+#register{
+    margin-top: 80px;
+}
+#register > *{
+    margin: 10px;
+}
+
+#div-aviso-registro{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#div-aviso-registro a{
+    margin: 5px;
+}
+
+
+
+#carrito{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#productos-carrito{
+    display: flex;
+    flex-direction:row;
+    width: 60vw;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+    margin: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+#productos-carrito div{
+    margin: 10px
+}
+#productos-carrito img{
+    width: 100px;
+    height: 100px;
+}
+#precio-carrito{
+    margin-right: 10px;
+    margin-left: auto;
+    font-size: 20px;
+}
+#resumen-compra{
+    padding: 10px;
+    margin: 15px 50px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    color: black;
+    background-color: white;
+}
+#resumen-compra h3{
+    margin: auto;
+}
+#resumen-compra div > span{
+    font-size: 25px;
+}
+#resumen-compra div > button{
+    margin: 15px;
+}
+#resumen-compra div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu
+{
+    display: none;
+}
+#button-menu
+{
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    font-size: large;
+}
+#menu-desplegable
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+}
+#menu-desplegable > *
+{
+    padding: 10px;
+}
+#menu-desplegable a
+{
+    color: black;
+}
+
+@media (max-width: 670px)
+{
+    #menu
+    {
+        display: block;
+    }
+    .divNavResponsive
+    {
+        display: none;
+    }
+
+    #logoFooter, #linea
+    {
+        display: none;
+    }
+}
